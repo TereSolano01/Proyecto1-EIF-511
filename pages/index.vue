@@ -77,22 +77,3 @@ export default {
   },
 };
 </script>
-
-<script>
-
-export default {
-  data () {
-    return {
-      slideIndex: 1,
-    };
-  },
-  methods: {
-    plusSlides (n) {
-      slideshow.plusSlides(n);
-    },
-    currentSlide (n) {
-      slideshow.currentSlide(n);
-    },
-  },
-};
-</script>
