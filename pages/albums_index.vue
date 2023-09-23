@@ -1,0 +1,37 @@
+<!-- pages/albums_index.vue -->
+<template>
+  <div>
+    <HeaderView />
+    <h2 style="margin-top: 15px">Álbumes</h2>
+    <p>Esta sección te sumerge en el fascinante mundo de los álbumes, ofreciendo detalles y datos intrigantes sobre cada uno de ellos.</p>
+    <div class="container centered-content">
+      <ul>
+        <ContentList path="/albums" v-slot="{ list }">
+          <div class="grid-container">
+            <span v-for="album in list" :key="album._path" class="grid-item">
+  <NuxtLink :to="album._path">
+    <img class="u-max-full-width" :src="'/images/'+album.image" alt="Descripción de la imagen">
+    <NuxtLink :to="album._path">{{ album.title }}</NuxtLink>
+    <p class="goto"><NuxtLink :to="album._path">Ver album<i class="fa-solid fa-chevron-right" style="color: #000000;"></i></NuxtLink></p>
+  </NuxtLink>
+</span>
+            
+          </div>
+        </ContentList>
+      </ul>
+    </div>
+    <FooterView />
+  </div>
+</template>
+
+
+<style scoped>
+@import url('../public/css/index.css');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@800&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');
+
+.fila {
+  display: flex;
+}
+</style>

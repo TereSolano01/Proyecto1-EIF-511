@@ -1,0 +1,101 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: xxx-large;
+    font-variant-caps: small-caps;
+    letter-spacing: 6px;
+    word-spacing: 4px;
+    font-family: serif;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Neuton';
+    font-size: 23px;
+    text-align: center;
+    margin-top: 0;
+    font-size: large;
+}
+
+li::marker {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cambiado de 4 a 6 elementos por columna */
+    grid-gap: 20px;
+    width: 50%;
+    margin-right: 4%;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 11%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+img{
+    height: 200px;
+    width: auto;
+    margin-bottom: 16px;
+}
+
+.goto{
+    padding: 0;
+    margin: 0;
+    text-align: initial;
+    margin-left: 5%;
+    font-family: system-ui;
+    font-size: smaller;
+    margin-top: 5px;
+    font-variant-caps: all-small-caps;
+    align-self: flex-end;
+}
+
+.goto i {
+    vertical-align: middle;
+}
+
+.goto a {
+    line-height: 1;
+}
