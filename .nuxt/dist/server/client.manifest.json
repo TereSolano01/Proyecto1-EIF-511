@@ -1,21 +1,21 @@
 {
-  "public/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg": {
+  "static/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "Black-Panther-Wakanda-Forever-Soundtrack.5f11e2de.jpg",
-    "src": "public/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg"
+    "src": "static/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg"
   },
-  "public/images/footer/Screenshot2023-09-20143159.png": {
+  "static/images/footer/Screenshot2023-09-20143159.png": {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "Screenshot2023-09-20143159.157360ab.png",
-    "src": "public/images/footer/Screenshot2023-09-20143159.png"
+    "src": "static/images/footer/Screenshot2023-09-20143159.png"
   },
-  "public/images/movies/maxresdefault.jpg": {
+  "static/images/movies/maxresdefault.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "maxresdefault.d501ba7c.jpg",
-    "src": "public/images/movies/maxresdefault.jpg"
+    "src": "static/images/movies/maxresdefault.jpg"
   },
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",

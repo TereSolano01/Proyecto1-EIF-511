@@ -11,11 +11,11 @@
         </div>
         <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
         <div class="carousel-item">
-          <img src="/public/images/movies/maxresdefault.jpg" alt="Imagen de la noticia" />
+          <img src="/static/images/movies/maxresdefault.jpg" alt="Imagen de la noticia" />
         </div>
         <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
         <div class="carousel-item">
-          <img src="/public/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg" alt="Imagen de la noticia" />
+          <img src="/static/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg" alt="Imagen de la noticia" />
         </div>
         <label for="carousel-3" class="carousel-control ">‹</label>
         <label for="carousel-2" class="carousel-control ">›</label>
@@ -57,8 +57,8 @@
 </template>
 
 <style scoped>
-@import url('../public/css/header.css');
-@import url('../public/css/carroussel.css');
+@import url('../static/css/header.css');
+@import url('../static/css/carroussel.css');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@800&family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');

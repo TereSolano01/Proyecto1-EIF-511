@@ -5,7 +5,7 @@
           <p>&copy;2023 Tere Solano | All Rights Reserved</p>
         </div>
         <div class="columna">
-           <img class="logo" src="../public/images/footer/Screenshot2023-09-20143159.png" alt="">
+           <img class="logo" src="../static/images/footer/Screenshot2023-09-20143159.png" alt="">
         </div>
         <div class="columna iconos">
           <div>
@@ -18,5 +18,5 @@
 </template>
 
 <style scoped>
-@import url('../public/css/footer.css');
+@import url('../static/css/footer.css');
 </style>

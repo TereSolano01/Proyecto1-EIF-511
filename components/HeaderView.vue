@@ -12,5 +12,5 @@
 </template>
 
 <style scoped>
-@import url('../public/css/header.css');
+@import url('../static/css/header.css');
 </style>

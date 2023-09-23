@@ -515,98 +515,98 @@ const assets = {
     "etag": "\"484-smROhiyukDKhncp2TeDQSl5uPr8\"",
     "mtime": "2023-09-17T01:54:14.742Z",
     "size": 1156,
-    "path": "../public/favicon.png"
+    "path": "../static/favicon.png"
   },
   "/css/carroussel.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"82a-sNAyr31KCgFUXC+9jfFlXbM9VMk\"",
     "mtime": "2023-09-20T00:29:44.592Z",
     "size": 2090,
-    "path": "../public/css/carroussel.css"
+    "path": "../static/css/carroussel.css"
   },
   "/css/details.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"319-9KODhnYs0zPNDTKIJnTBcmHuJTk\"",
     "mtime": "2023-09-21T00:18:44.224Z",
     "size": 793,
-    "path": "../public/css/details.css"
+    "path": "../static/css/details.css"
   },
   "/css/footer.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"3cd-WLQ90EqYJn0vGatSydYkvb0eyQo\"",
     "mtime": "2023-09-23T01:04:11.715Z",
     "size": 973,
-    "path": "../public/css/footer.css"
+    "path": "../static/css/footer.css"
   },
   "/css/header.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"90c-fyLQvinXS8MJAjV7tnnSMk47lXY\"",
     "mtime": "2023-09-20T05:31:41.444Z",
     "size": 2316,
-    "path": "../public/css/header.css"
+    "path": "../static/css/header.css"
   },
   "/css/index.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"6e5-WxwwK36d4xPp/5tKV3cuTCfc0dc\"",
     "mtime": "2023-09-21T00:23:23.764Z",
     "size": 1765,
-    "path": "../public/css/index.css"
+    "path": "../static/css/index.css"
   },
   "/css/indexCompositores.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"6e4-sDGkNfZvcfmZni/CzKotPyO6Zx8\"",
     "mtime": "2023-09-21T00:35:02.276Z",
     "size": 1764,
-    "path": "../public/css/indexCompositores.css"
+    "path": "../static/css/indexCompositores.css"
   },
   "/css/indexMovies.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"6e4-sDGkNfZvcfmZni/CzKotPyO6Zx8\"",
     "mtime": "2023-09-21T00:35:02.276Z",
     "size": 1764,
-    "path": "../public/css/indexMovies.css"
+    "path": "../static/css/indexMovies.css"
   },
   "/css/normalize.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"201f-P0Doqf6Oe9XPxM9Mu7y5U5Ri6XM\"",
     "mtime": "2023-09-17T01:54:14.741Z",
     "size": 8223,
-    "path": "../public/css/normalize.css"
+    "path": "../static/css/normalize.css"
   },
   "/_nuxt/albums_index.937d9d74.js": {
     "type": "application/javascript",
     "etag": "\"516-KShtNNhEU4JwJqx+wJtOyCPGGsQ\"",
     "mtime": "2023-09-23T03:38:02.597Z",
     "size": 1302,
-    "path": "../public/_nuxt/albums_index.937d9d74.js"
+    "path": "../static/_nuxt/albums_index.937d9d74.js"
   },
   "/_nuxt/albums_index.f9db5446.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"695-aBmb8AB72VIiwRJ818E6/h7Jun4\"",
     "mtime": "2023-09-23T03:38:02.600Z",
     "size": 1685,
-    "path": "../public/_nuxt/albums_index.f9db5446.css"
+    "path": "../static/_nuxt/albums_index.f9db5446.css"
   },
   "/_nuxt/Black-Panther-Wakanda-Forever-Soundtrack.5f11e2de.jpg": {
     "type": "image/jpeg",
     "etag": "\"19c55-0Kw2f0aUFV0IPKgPif8V2TvxlD0\"",
     "mtime": "2023-09-23T03:38:02.593Z",
     "size": 105557,
-    "path": "../public/_nuxt/Black-Panther-Wakanda-Forever-Soundtrack.5f11e2de.jpg"
+    "path": "../static/_nuxt/Black-Panther-Wakanda-Forever-Soundtrack.5f11e2de.jpg"
   },
   "/_nuxt/compositors_index.65b63be0.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"694-+yGn5yCN1FTMDg4Zwt4t/3d8cj8\"",
     "mtime": "2023-09-23T03:38:02.600Z",
     "size": 1684,
-    "path": "../public/_nuxt/compositors_index.65b63be0.css"
+    "path": "../static/_nuxt/compositors_index.65b63be0.css"
   },
   "/_nuxt/compositors_index.d583fa03.js": {
     "type": "application/javascript",
     "etag": "\"4d7-8T+PU6T1P/I2+/eRoPOr2avIiho\"",
     "mtime": "2023-09-23T03:38:02.599Z",
     "size": 1239,
-    "path": "../public/_nuxt/compositors_index.d583fa03.js"
+    "path": "../static/_nuxt/compositors_index.d583fa03.js"
   },
   "/_nuxt/ContentNavigation.3c4ebcd6.css": {
     "type": "text/css; charset=utf-8",

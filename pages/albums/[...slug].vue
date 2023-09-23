@@ -12,7 +12,7 @@
             <div class="title-column">
               <div>
                 <p>Compositores: <NuxtLink :to="'/compositors/'+doc.compositorId">{{doc.compositor}}</NuxtLink></p>   
-                  <p> Año publicacion: {{doc.year}};</p>
+                  <p> Año staticacion: {{doc.year}};</p>
                   <p>Generos: {{doc.fields}}</p>
                   <p>Pelicula: <NuxtLink :to="'/movies/'+doc.movieId">{{doc.movie}}</NuxtLink></p> 
               </div>
@@ -32,7 +32,7 @@
 </template>
 
 <style scoped>
-@import url('../../public/css/details.css');
+@import url('../../static/css/details.css');
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 </style>

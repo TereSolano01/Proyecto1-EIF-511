@@ -38,7 +38,7 @@
 </template>
 
 <style scoped>
-@import url('../../public/css/details.css');
+@import url('../../static/css/details.css');
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 </style>
