@@ -1,1 +1,0 @@
-{"parsed":{"_path":"/albums/aladim","_draft":false,"_partial":false,"_locale":"en","_empty":true,"title":"Aladim","description":"","body":{"type":"root","children":[],"toc":{"title":"","searchDepth":2,"depth":2,"links":[]}},"_type":"markdown","_id":"content:albums:aladim.md","_source":"content","_file":"albums/aladim.md","_extension":"md"},"hash":"xNkMUkf2DN"}
