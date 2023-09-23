@@ -1,0 +1,57 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.columna {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.columna h3 {
+    margin-bottom: 10px;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin-bottom: 5px;
+}
+
+.columna.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+}
+
+.columna.iconos div {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+}
+
+.columna.iconos i{
+    margin-right: 20px;
+}
+.columna img {
+    display: block; /* Esto asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Esto centra la imagen horizontalmente */
+}
+.logo{
+    width: 49%;
+}
+img{
+    width: 49%;
+}

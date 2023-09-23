@@ -508,38 +508,38 @@ const preload = defineNuxtPlugin((nuxtApp) => {
 const components = {
   ContentDoc: defineAsyncComponent(() => Promise.resolve().then(() => ContentDoc).then((c) => c.default || c)),
   ContentList: defineAsyncComponent(() => Promise.resolve().then(() => ContentList).then((c) => c.default || c)),
-  ContentNavigation: defineAsyncComponent(() => import("./_nuxt/ContentNavigation.56a2f08f.js").then((c) => c.default || c)),
+  ContentNavigation: defineAsyncComponent(() => import("./_nuxt/ContentNavigation.a68b9593.js").then((c) => c.default || c)),
   ContentQuery: defineAsyncComponent(() => Promise.resolve().then(() => ContentQuery).then((c) => c.default || c)),
   ContentRenderer: defineAsyncComponent(() => Promise.resolve().then(() => ContentRenderer).then((c) => c.default || c)),
   ContentRendererMarkdown: defineAsyncComponent(() => Promise.resolve().then(() => ContentRendererMarkdown).then((c) => c.default || c)),
-  ContentSlot: defineAsyncComponent(() => import("./_nuxt/ContentSlot.ebd01a6c.js").then((c) => c.default || c)),
+  ContentSlot: defineAsyncComponent(() => import("./_nuxt/ContentSlot.e000cf01.js").then((c) => c.default || c)),
   DocumentDrivenEmpty: defineAsyncComponent(() => import("./_nuxt/DocumentDrivenEmpty.b1426f16.js").then((c) => c.default || c)),
   DocumentDrivenNotFound: defineAsyncComponent(() => import("./_nuxt/DocumentDrivenNotFound.b4d3af5a.js").then((c) => c.default || c)),
-  Markdown: defineAsyncComponent(() => import("./_nuxt/Markdown.8b10d4c1.js").then((c) => c.default || c)),
-  ProseA: defineAsyncComponent(() => import("./_nuxt/ProseA.debf183b.js").then((c) => c.default || c)),
-  ProseBlockquote: defineAsyncComponent(() => import("./_nuxt/ProseBlockquote.932a2b22.js").then((c) => c.default || c)),
-  ProseCode: defineAsyncComponent(() => import("./_nuxt/ProseCode.121b4974.js").then((c) => c.default || c)),
-  ProseCodeInline: defineAsyncComponent(() => import("./_nuxt/ProseCodeInline.d8edfeca.js").then((c) => c.default || c)),
-  ProseEm: defineAsyncComponent(() => import("./_nuxt/ProseEm.7b9fdf10.js").then((c) => c.default || c)),
-  ProseH1: defineAsyncComponent(() => import("./_nuxt/ProseH1.ae9688fc.js").then((c) => c.default || c)),
+  Markdown: defineAsyncComponent(() => import("./_nuxt/Markdown.d648d33e.js").then((c) => c.default || c)),
+  ProseA: defineAsyncComponent(() => import("./_nuxt/ProseA.ca2047c2.js").then((c) => c.default || c)),
+  ProseBlockquote: defineAsyncComponent(() => import("./_nuxt/ProseBlockquote.db50ce36.js").then((c) => c.default || c)),
+  ProseCode: defineAsyncComponent(() => import("./_nuxt/ProseCode.ec634e98.js").then((c) => c.default || c)),
+  ProseCodeInline: defineAsyncComponent(() => import("./_nuxt/ProseCodeInline.c3e87ff0.js").then((c) => c.default || c)),
+  ProseEm: defineAsyncComponent(() => import("./_nuxt/ProseEm.eca1a0a2.js").then((c) => c.default || c)),
+  ProseH1: defineAsyncComponent(() => import("./_nuxt/ProseH1.a0bed59c.js").then((c) => c.default || c)),
   ProseH2: defineAsyncComponent(() => import("./_nuxt/ProseH2.89e95bfc.js").then((c) => c.default || c)),
   ProseH3: defineAsyncComponent(() => import("./_nuxt/ProseH3.3f00dba7.js").then((c) => c.default || c)),
   ProseH4: defineAsyncComponent(() => import("./_nuxt/ProseH4.6ff4011f.js").then((c) => c.default || c)),
-  ProseH5: defineAsyncComponent(() => import("./_nuxt/ProseH5.3e1c855b.js").then((c) => c.default || c)),
-  ProseH6: defineAsyncComponent(() => import("./_nuxt/ProseH6.8d086fed.js").then((c) => c.default || c)),
-  ProseHr: defineAsyncComponent(() => import("./_nuxt/ProseHr.6a28417a.js").then((c) => c.default || c)),
+  ProseH5: defineAsyncComponent(() => import("./_nuxt/ProseH5.21a90b7d.js").then((c) => c.default || c)),
+  ProseH6: defineAsyncComponent(() => import("./_nuxt/ProseH6.aa5c235e.js").then((c) => c.default || c)),
+  ProseHr: defineAsyncComponent(() => import("./_nuxt/ProseHr.0a51047b.js").then((c) => c.default || c)),
   ProseImg: defineAsyncComponent(() => import("./_nuxt/ProseImg.4debdb73.js").then((c) => c.default || c)),
-  ProseLi: defineAsyncComponent(() => import("./_nuxt/ProseLi.742c82fe.js").then((c) => c.default || c)),
-  ProseOl: defineAsyncComponent(() => import("./_nuxt/ProseOl.380c684a.js").then((c) => c.default || c)),
-  ProseP: defineAsyncComponent(() => import("./_nuxt/ProseP.e429cd31.js").then((c) => c.default || c)),
-  ProseStrong: defineAsyncComponent(() => import("./_nuxt/ProseStrong.02915475.js").then((c) => c.default || c)),
-  ProseTable: defineAsyncComponent(() => import("./_nuxt/ProseTable.2a988184.js").then((c) => c.default || c)),
-  ProseTbody: defineAsyncComponent(() => import("./_nuxt/ProseTbody.8bca6eed.js").then((c) => c.default || c)),
-  ProseTd: defineAsyncComponent(() => import("./_nuxt/ProseTd.b0c57e01.js").then((c) => c.default || c)),
-  ProseTh: defineAsyncComponent(() => import("./_nuxt/ProseTh.eb9c2dbd.js").then((c) => c.default || c)),
-  ProseThead: defineAsyncComponent(() => import("./_nuxt/ProseThead.d09229bc.js").then((c) => c.default || c)),
-  ProseTr: defineAsyncComponent(() => import("./_nuxt/ProseTr.de7634d2.js").then((c) => c.default || c)),
-  ProseUl: defineAsyncComponent(() => import("./_nuxt/ProseUl.6b90aafa.js").then((c) => c.default || c))
+  ProseLi: defineAsyncComponent(() => import("./_nuxt/ProseLi.11f4cd71.js").then((c) => c.default || c)),
+  ProseOl: defineAsyncComponent(() => import("./_nuxt/ProseOl.0fcdcd48.js").then((c) => c.default || c)),
+  ProseP: defineAsyncComponent(() => import("./_nuxt/ProseP.f33643e9.js").then((c) => c.default || c)),
+  ProseStrong: defineAsyncComponent(() => import("./_nuxt/ProseStrong.b9a04678.js").then((c) => c.default || c)),
+  ProseTable: defineAsyncComponent(() => import("./_nuxt/ProseTable.a9f0fc61.js").then((c) => c.default || c)),
+  ProseTbody: defineAsyncComponent(() => import("./_nuxt/ProseTbody.75c6613f.js").then((c) => c.default || c)),
+  ProseTd: defineAsyncComponent(() => import("./_nuxt/ProseTd.156a3866.js").then((c) => c.default || c)),
+  ProseTh: defineAsyncComponent(() => import("./_nuxt/ProseTh.9b10f093.js").then((c) => c.default || c)),
+  ProseThead: defineAsyncComponent(() => import("./_nuxt/ProseThead.79eed8a2.js").then((c) => c.default || c)),
+  ProseTr: defineAsyncComponent(() => import("./_nuxt/ProseTr.c2bf908c.js").then((c) => c.default || c)),
+  ProseUl: defineAsyncComponent(() => import("./_nuxt/ProseUl.65ccfd16.js").then((c) => c.default || c))
 };
 const _nuxt_components_plugin_mjs_KR1HBZs4kY = defineNuxtPlugin((nuxtApp) => {
   for (const name in components) {
@@ -1314,7 +1314,7 @@ const Component = defineComponent({
     };
   }
 });
-const HeaderView_vue_vue_type_style_index_0_scoped_f95ba272_lang = "";
+const HeaderView_vue_vue_type_style_index_0_scoped_ff276254_lang = "";
 const _export_sfc = (sfc, props) => {
   const target = sfc.__vccOpts || sfc;
   for (const [key, val] of props) {
@@ -1332,7 +1332,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   }, _attrs), {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
-        _push2(`<nav data-v-f95ba272${_scopeId}><ul data-v-f95ba272${_scopeId}><li data-v-f95ba272${_scopeId}>`);
+        _push2(`<nav data-v-ff276254${_scopeId}><ul data-v-ff276254${_scopeId}><li data-v-ff276254${_scopeId}>`);
         _push2(ssrRenderComponent(_component_NuxtLink, { to: "/" }, {
           default: withCtx((_2, _push3, _parent3, _scopeId2) => {
             if (_push3) {
@@ -1345,7 +1345,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
           }),
           _: 1
         }, _parent2, _scopeId));
-        _push2(`</li><li data-v-f95ba272${_scopeId}>`);
+        _push2(`</li><li data-v-ff276254${_scopeId}>`);
         _push2(ssrRenderComponent(_component_NuxtLink, { to: "/albums_index" }, {
           default: withCtx((_2, _push3, _parent3, _scopeId2) => {
             if (_push3) {
@@ -1358,7 +1358,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
           }),
           _: 1
         }, _parent2, _scopeId));
-        _push2(`</li><li data-v-f95ba272${_scopeId}>`);
+        _push2(`</li><li data-v-ff276254${_scopeId}>`);
         _push2(ssrRenderComponent(_component_NuxtLink, { to: "/compositors_index" }, {
           default: withCtx((_2, _push3, _parent3, _scopeId2) => {
             if (_push3) {
@@ -1371,7 +1371,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
           }),
           _: 1
         }, _parent2, _scopeId));
-        _push2(`</li><li data-v-f95ba272${_scopeId}>`);
+        _push2(`</li><li data-v-ff276254${_scopeId}>`);
         _push2(ssrRenderComponent(_component_NuxtLink, { to: "/movies_index" }, {
           default: withCtx((_2, _push3, _parent3, _scopeId2) => {
             if (_push3) {
@@ -1435,7 +1435,7 @@ _sfc_main$8.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/HeaderView.vue");
   return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
 };
-const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["ssrRender", _sfc_ssrRender$2], ["__scopeId", "data-v-f95ba272"]]);
+const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["ssrRender", _sfc_ssrRender$2], ["__scopeId", "data-v-ff276254"]]);
 const HeaderView = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: __nuxt_component_0$1
@@ -2251,10 +2251,10 @@ const ContentDoc = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePr
   default: _sfc_main$4
 }, Symbol.toStringTag, { value: "Module" }));
 const _imports_0 = "" + globalThis.__buildAssetsURL("Screenshot2023-09-20143159.157360ab.png");
-const FooterView_vue_vue_type_style_index_0_scoped_8950386d_lang = "";
+const FooterView_vue_vue_type_style_index_0_scoped_75fde3a4_lang = "";
 const _sfc_main$3 = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" data-v-8950386d><footer data-v-8950386d><div class="columna" data-v-8950386d><p data-v-8950386d>\xA92023 Tere Solano | All Rights Reserved</p></div><div class="columna" data-v-8950386d><img class="logo"${ssrRenderAttr("src", _imports_0)} alt="" data-v-8950386d></div><div class="columna iconos" data-v-8950386d><div data-v-8950386d><i class="fab fa-facebook" data-v-8950386d></i><i class="fab fa-instagram" data-v-8950386d></i><i class="fas fa-envelope" data-v-8950386d></i></div></div></footer><!--]-->`);
+  _push(`<!--[--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" data-v-75fde3a4><footer data-v-75fde3a4><div class="columna" data-v-75fde3a4><p data-v-75fde3a4>\xA92023 Tere Solano | All Rights Reserved</p></div><div class="columna" data-v-75fde3a4><img class="logo"${ssrRenderAttr("src", _imports_0)} alt="" data-v-75fde3a4></div><div class="columna iconos" data-v-75fde3a4><div data-v-75fde3a4><i class="fab fa-facebook" data-v-75fde3a4></i><i class="fab fa-instagram" data-v-75fde3a4></i><i class="fas fa-envelope" data-v-75fde3a4></i></div></div></footer><!--]-->`);
 }
 const _sfc_setup$3 = _sfc_main$3.setup;
 _sfc_main$3.setup = (props, ctx) => {
@@ -2262,7 +2262,7 @@ _sfc_main$3.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/FooterView.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
-const __nuxt_component_3 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-8950386d"]]);
+const __nuxt_component_3 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-75fde3a4"]]);
 const FooterView = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: __nuxt_component_3
@@ -2325,7 +2325,7 @@ const routes = [
     children: [],
     meta: meta$6,
     alias: (meta$6 == null ? void 0 : meta$6.alias) || [],
-    component: () => import("./_nuxt/_...slug_.a4189528.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/_...slug_.b2263bb7.js").then((m) => m.default || m)
   },
   {
     name: "albums_index",
@@ -2334,7 +2334,7 @@ const routes = [
     children: [],
     meta: meta$5,
     alias: (meta$5 == null ? void 0 : meta$5.alias) || [],
-    component: () => import("./_nuxt/albums_index.1c3e270d.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/albums_index.3c6d1229.js").then((m) => m.default || m)
   },
   {
     name: "compositors-slug",
@@ -2343,7 +2343,7 @@ const routes = [
     children: [],
     meta: meta$4,
     alias: (meta$4 == null ? void 0 : meta$4.alias) || [],
-    component: () => import("./_nuxt/_...slug_.282d276d.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/_...slug_.f8dc2d08.js").then((m) => m.default || m)
   },
   {
     name: "compositors_index",
@@ -2352,7 +2352,7 @@ const routes = [
     children: [],
     meta: meta$3,
     alias: (meta$3 == null ? void 0 : meta$3.alias) || [],
-    component: () => import("./_nuxt/compositors_index.1a6055d8.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/compositors_index.a4c191ba.js").then((m) => m.default || m)
   },
   {
     name: "index",
@@ -2361,7 +2361,7 @@ const routes = [
     children: [],
     meta: meta$2,
     alias: (meta$2 == null ? void 0 : meta$2.alias) || [],
-    component: () => import("./_nuxt/index.02a65ab0.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index.586ef370.js").then((m) => m.default || m)
   },
   {
     name: "movies-slug",
@@ -2370,7 +2370,7 @@ const routes = [
     children: [],
     meta: meta$1,
     alias: (meta$1 == null ? void 0 : meta$1.alias) || [],
-    component: () => import("./_nuxt/_...slug_.ee784da2.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/_...slug_.0526f42f.js").then((m) => m.default || m)
   },
   {
     name: "movies_index",
@@ -2379,7 +2379,7 @@ const routes = [
     children: [],
     meta,
     alias: (meta == null ? void 0 : meta.alias) || [],
-    component: () => import("./_nuxt/movies_index.19cfbd24.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/movies_index.8484925b.js").then((m) => m.default || m)
   }
 ];
 const configRouterOptions = {};
@@ -2528,7 +2528,7 @@ const _sfc_main$1 = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const ErrorComponent = defineAsyncComponent(() => import("./_nuxt/error-component.341c1afa.js"));
+    const ErrorComponent = defineAsyncComponent(() => import("./_nuxt/error-component.b6096a97.js"));
     const nuxtApp = useNuxtApp();
     provide("_route", useRoute());
     nuxtApp.hooks.callHookWith((hooks) => hooks.map((hook) => hook()), "vue:setup");
