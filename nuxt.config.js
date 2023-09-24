@@ -11,8 +11,11 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,300,600' },
-        { rel: 'icon', type:"image/png", href: 'images/favicon.png'}
+        { rel: 'icon', type:"image/png", href: '/static/images/favicon.png'}
       ]
-    }
-	}
+    },
+    build: {
+      publish: 'static',
+    },
+  },
 })
