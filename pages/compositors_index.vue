@@ -16,7 +16,7 @@
      <p>This section presents information about authors</p>
    <ul>
      <li v-for="author of authors" :key="author.slug">
-       <NuxtLink :to="{ name: 'authors-slug', params: { slug: author.slug } }">{{author.name}}</NuxtLink>
+       <NuxtLink :to="{ name: 'compositors-slug', params: { slug: author.slug } }">{{author.name}}</NuxtLink>
      </li>
    </ul>
    <FooterView />
