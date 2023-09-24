@@ -16,6 +16,7 @@
        <img class="u-max-full-width" :src="'/images/'+compositor.image" alt="Italian Trulli">
      </div>
      <div class="six columns">
+      <h1>hola</h1>
        <h4>{{compositor.name}}</h4>
 	   Nationality: {{compositor.nationality}}; Born: {{compositor.birth_year}}
 	   Fields: {{compositor.fields}}
