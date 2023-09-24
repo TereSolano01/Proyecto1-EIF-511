@@ -1,41 +1,42 @@
-<script>
-  export default {
-    async asyncData({ $content, params }) {
-      const compositor = await $content('compositors', params.slug).fetch()
-      const books = await $content('albums').where({ compositorId: params.slug }).fetch()
-      return { compositor, books }
-    }
-  }
-</script>
-
 <template>
-  <div class="container">
-   <HeaderView />
-   <div class="row">
-     <div class="three columns">
-       <img class="u-max-full-width" :src="'/images/'+compositor.image" alt="Italian Trulli">
-     </div>
-     <div class="six columns">
-      <h1>hola</h1>
-       <h4>{{compositor.name}}</h4>
-	   Nationality: {{compositor.nationality}}; Born: {{compositor.birth_year}}
-	   Fields: {{compositor.fields}}
-	   Biography
-	    <nuxt-content :document="compositor" />
-	 </div>
+  <div>
+    <HeaderView />
+    <div>
+      <ContentDoc v-slot="{doc}">
+        <h4>{{doc.name}}</h4>
+        <div class="content-section">
+          <div class="image-and-title">
+            <div class="image-column">
+              <img :src="'/images/'+doc.image">
+            </div>
+            <div class="title-column">
+              <div>
+                  <p> Nacionalidad: {{doc.nationality}}</p>
+                  <p>Año de nacimiento: {{doc.birth_year}}</p>
+                  <p>Fields: {{doc.fields}}</p>
+              </div>
+                  <div class="info-section">
+                      <pre></pre>
+                      <ContentRenderer :value="doc" />
+                      <ul>
+                        <ContentQuery path="/albums" :where="{ compositorId: doc.id }" v-slot="{ data }">
+                        <li v-for="album in data" :key="album._path">
+                        <NuxtLink :to="album._path">{{ album.title }}</NuxtLink>
+                        </li>
+                        </ContentQuery>
+                      </ul>
+                  </div>
+               </div>
+             </div>
+            </div>
+          <div>
+        </div>
+      </ContentDoc>
+    </div>
+    <FooterView />
   </div>
-	 <div class="three columns">
-	   <h5>Books</h5>
-	   <ul>
-	     <li v-for="book of books" :key="book.slug">
-	       <NuxtLink :to="{ name: 'compositors-slug', params: { slug: book.slug } }">{{book.title}}</NuxtLink>
-	     </li>
-	   </ul>
-   </div>
-   <FooterView />
- </div>
 </template>
 
 <style scoped>
-@import url('../../static/css/details.css');
+@import url('../../public/css/details.css');
 </style>
