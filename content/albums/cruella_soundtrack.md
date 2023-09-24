@@ -4,7 +4,7 @@ title: Cruella Soundtrack
 authors: Nicholas Britell
 year: 2021
 fields: Rock, Pop, Punk, Soul y Disco
-image: albums/albums_1.JPEG
+image: albums/albums_1.jpeg
 compositor: Nicholas Britell
 compositorId: compositor_britell
 movie: Cruella
