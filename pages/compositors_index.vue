@@ -1,30 +1,55 @@
-<!-- pages/compositors_index.vue -->
 <template>
-  <div>
-    <HeaderView />
-    <h2 style="margin-top: 15px">Compositores</h2>
-    <p>Esta sección presenta información sobre compositores.</p>
-    <div class="container centered-content">
-      <ul>
-        <ContentList path="/compositors" v-slot="{ list }">
-          <div class="grid-container">
-            <span v-for="compositor in list" :key="compositor._path" class="grid-item">
-              <NuxtLink :to="compositor._path">
-                <img class="u-max-full-width" :src="'/static/images/'+compositor.image" alt="Descripción de la imagen">
-                <NuxtLink :to="compositor._path">{{ compositor.name }}</NuxtLink>
-                <p class="goto"><NuxtLink :to="compositor._path">Ver compositor<i class="fa-solid fa-chevron-right" style="color: #000000;"></i></NuxtLink></p>
-              </NuxtLink>
-            </span>
-          </div>
-        </ContentList>
-      </ul>
-    </div>
-    <FooterView />
+  <div id="app">
+    <h1>Compositores</h1>
+    <ContentList path="/compositors" v-slot="{ list }">
+      {
+        this.compositores.length === 0 &&
+        <div class="not-found">
+          <h2>No se encontraron compositores</h2>
+          <p>Por favor, intenta con un compositor diferente.</p>
+        </div>
+      }
+    </ContentList>
   </div>
 </template>
+
+<script>
+import { defineComponent } from 'vue'
+import ContentList from '@/components/ContentList'
+
+export default defineComponent({
+  name: 'App',
+  components: {
+    ContentList
+  },
+  asyncData({ $content }) {
+    const compositores = $content('compositors').fetch()
+
+    return {
+      compositores
+    }
+  },
+  render() {
+    return (
+      <div>
+        <h1>Compositores</h1>
+        <ContentList path="/compositors" v-slot="{ list }">
+          {
+            this.compositores.length === 0 &&
+            <div class="not-found">
+              <h2>No se encontraron compositores</h2>
+              <p>Por favor, intenta con un compositor diferente.</p>
+            </div>
+          }
+        </ContentList>
+      </div>
+    )
+  }
+})
+</script>
+
 <style scoped>
 @import url('../static/css/indexCompositores.css');
-
 
 .fila {
   display: flex;

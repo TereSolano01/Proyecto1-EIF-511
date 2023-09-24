@@ -1,3 +1,19 @@
+<script>
+async function fetchCompositor(params) {
+  const compositor = await $content('compositors', params.slug).fetch()
+
+  if (!compositor) {
+    return {
+      error: true
+    }
+  }
+
+  return {
+    compositor
+  }
+}
+</script>
+
 <template>
   <div>
     <HeaderView />
