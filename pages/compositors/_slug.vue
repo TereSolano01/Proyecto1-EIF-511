@@ -18,8 +18,8 @@
      <div class="six columns">
        <h4>{{compositor.name}}</h4>
 	   Nationality: {{compositor.nationality}}; Born: {{compositor.birth_year}}</br>
-	   Fields: {{compositor.fields}}</br></br>
-	   <b>Biography</b></br>
+	   Fields: {{compositor.fields}}
+	   Biography
 	    <nuxt-content :document="compositor" />
 	 </div>
 	 <div class="three columns"></div>
