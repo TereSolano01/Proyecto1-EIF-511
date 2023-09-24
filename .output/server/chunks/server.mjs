@@ -545,38 +545,38 @@ const preload = defineNuxtPlugin((nuxtApp) => {
 const components = {
   ContentDoc: defineAsyncComponent(() => Promise.resolve().then(() => ContentDoc).then((c) => c.default || c)),
   ContentList: defineAsyncComponent(() => Promise.resolve().then(() => ContentList).then((c) => c.default || c)),
-  ContentNavigation: defineAsyncComponent(() => import('./ContentNavigation.ffda1f84.mjs').then((c) => c.default || c)),
+  ContentNavigation: defineAsyncComponent(() => import('./ContentNavigation.53196d9a.mjs').then((c) => c.default || c)),
   ContentQuery: defineAsyncComponent(() => Promise.resolve().then(() => ContentQuery).then((c) => c.default || c)),
   ContentRenderer: defineAsyncComponent(() => Promise.resolve().then(() => ContentRenderer).then((c) => c.default || c)),
   ContentRendererMarkdown: defineAsyncComponent(() => Promise.resolve().then(() => ContentRendererMarkdown).then((c) => c.default || c)),
-  ContentSlot: defineAsyncComponent(() => import('./ContentSlot.de779bf8.mjs').then((c) => c.default || c)),
+  ContentSlot: defineAsyncComponent(() => import('./ContentSlot.c2845c16.mjs').then((c) => c.default || c)),
   DocumentDrivenEmpty: defineAsyncComponent(() => import('./DocumentDrivenEmpty.b1426f16.mjs').then((c) => c.default || c)),
   DocumentDrivenNotFound: defineAsyncComponent(() => import('./DocumentDrivenNotFound.b4d3af5a.mjs').then((c) => c.default || c)),
-  Markdown: defineAsyncComponent(() => import('./Markdown.227e70d7.mjs').then((c) => c.default || c)),
-  ProseA: defineAsyncComponent(() => import('./ProseA.87577d2d.mjs').then((c) => c.default || c)),
-  ProseBlockquote: defineAsyncComponent(() => import('./ProseBlockquote.86e0366e.mjs').then((c) => c.default || c)),
-  ProseCode: defineAsyncComponent(() => import('./ProseCode.af553233.mjs').then((c) => c.default || c)),
-  ProseCodeInline: defineAsyncComponent(() => import('./ProseCodeInline.977da015.mjs').then((c) => c.default || c)),
-  ProseEm: defineAsyncComponent(() => import('./ProseEm.9120b5cb.mjs').then((c) => c.default || c)),
-  ProseH1: defineAsyncComponent(() => import('./ProseH1.aa0d025d.mjs').then((c) => c.default || c)),
+  Markdown: defineAsyncComponent(() => import('./Markdown.4d90a15e.mjs').then((c) => c.default || c)),
+  ProseA: defineAsyncComponent(() => import('./ProseA.eb322b18.mjs').then((c) => c.default || c)),
+  ProseBlockquote: defineAsyncComponent(() => import('./ProseBlockquote.a9c50afe.mjs').then((c) => c.default || c)),
+  ProseCode: defineAsyncComponent(() => import('./ProseCode.914ca970.mjs').then((c) => c.default || c)),
+  ProseCodeInline: defineAsyncComponent(() => import('./ProseCodeInline.1c86a5f8.mjs').then((c) => c.default || c)),
+  ProseEm: defineAsyncComponent(() => import('./ProseEm.27f25a2b.mjs').then((c) => c.default || c)),
+  ProseH1: defineAsyncComponent(() => import('./ProseH1.f4d590ce.mjs').then((c) => c.default || c)),
   ProseH2: defineAsyncComponent(() => import('./ProseH2.89e95bfc.mjs').then((c) => c.default || c)),
   ProseH3: defineAsyncComponent(() => import('./ProseH3.3f00dba7.mjs').then((c) => c.default || c)),
   ProseH4: defineAsyncComponent(() => import('./ProseH4.6ff4011f.mjs').then((c) => c.default || c)),
-  ProseH5: defineAsyncComponent(() => import('./ProseH5.f31568db.mjs').then((c) => c.default || c)),
-  ProseH6: defineAsyncComponent(() => import('./ProseH6.a4e13a62.mjs').then((c) => c.default || c)),
-  ProseHr: defineAsyncComponent(() => import('./ProseHr.040117e8.mjs').then((c) => c.default || c)),
+  ProseH5: defineAsyncComponent(() => import('./ProseH5.b5573fa9.mjs').then((c) => c.default || c)),
+  ProseH6: defineAsyncComponent(() => import('./ProseH6.a7d80238.mjs').then((c) => c.default || c)),
+  ProseHr: defineAsyncComponent(() => import('./ProseHr.5b50cb0b.mjs').then((c) => c.default || c)),
   ProseImg: defineAsyncComponent(() => import('./ProseImg.4debdb73.mjs').then((c) => c.default || c)),
-  ProseLi: defineAsyncComponent(() => import('./ProseLi.d82e0210.mjs').then((c) => c.default || c)),
-  ProseOl: defineAsyncComponent(() => import('./ProseOl.43009c40.mjs').then((c) => c.default || c)),
-  ProseP: defineAsyncComponent(() => import('./ProseP.20a52d0f.mjs').then((c) => c.default || c)),
-  ProseStrong: defineAsyncComponent(() => import('./ProseStrong.2fd1d630.mjs').then((c) => c.default || c)),
-  ProseTable: defineAsyncComponent(() => import('./ProseTable.ad42e475.mjs').then((c) => c.default || c)),
-  ProseTbody: defineAsyncComponent(() => import('./ProseTbody.d51c5659.mjs').then((c) => c.default || c)),
-  ProseTd: defineAsyncComponent(() => import('./ProseTd.069d5765.mjs').then((c) => c.default || c)),
-  ProseTh: defineAsyncComponent(() => import('./ProseTh.d08484a4.mjs').then((c) => c.default || c)),
-  ProseThead: defineAsyncComponent(() => import('./ProseThead.4a134bec.mjs').then((c) => c.default || c)),
-  ProseTr: defineAsyncComponent(() => import('./ProseTr.c8af23e6.mjs').then((c) => c.default || c)),
-  ProseUl: defineAsyncComponent(() => import('./ProseUl.70c8cf3b.mjs').then((c) => c.default || c))
+  ProseLi: defineAsyncComponent(() => import('./ProseLi.c9cb8a9b.mjs').then((c) => c.default || c)),
+  ProseOl: defineAsyncComponent(() => import('./ProseOl.799839a7.mjs').then((c) => c.default || c)),
+  ProseP: defineAsyncComponent(() => import('./ProseP.fc1d32a6.mjs').then((c) => c.default || c)),
+  ProseStrong: defineAsyncComponent(() => import('./ProseStrong.51efb458.mjs').then((c) => c.default || c)),
+  ProseTable: defineAsyncComponent(() => import('./ProseTable.c59ae3f4.mjs').then((c) => c.default || c)),
+  ProseTbody: defineAsyncComponent(() => import('./ProseTbody.ded2c3a3.mjs').then((c) => c.default || c)),
+  ProseTd: defineAsyncComponent(() => import('./ProseTd.336277c5.mjs').then((c) => c.default || c)),
+  ProseTh: defineAsyncComponent(() => import('./ProseTh.783d96dc.mjs').then((c) => c.default || c)),
+  ProseThead: defineAsyncComponent(() => import('./ProseThead.16fb2242.mjs').then((c) => c.default || c)),
+  ProseTr: defineAsyncComponent(() => import('./ProseTr.f76182e0.mjs').then((c) => c.default || c)),
+  ProseUl: defineAsyncComponent(() => import('./ProseUl.513c19d7.mjs').then((c) => c.default || c))
 };
 const _nuxt_components_plugin_mjs_KR1HBZs4kY = defineNuxtPlugin((nuxtApp) => {
   for (const name in components) {
@@ -1236,7 +1236,7 @@ const Components = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePr
   Html,
   Body
 }, Symbol.toStringTag, { value: "Module" }));
-const appHead = { "meta": [{ "hid": "description", "name": "description", "content": "Meta description" }], "link": [{ "rel": "stylesheet", "href": "https://fonts.googleapis.com/css?family=Raleway:400,300,600" }, { "rel": "icon", "type": "image/png", "href": "images/favicon.png" }], "style": [], "script": [], "noscript": [], "charset": "utf-8", "viewport": "width=device-width, initial-scale=1" };
+const appHead = { "meta": [{ "hid": "description", "name": "description", "content": "Meta description" }], "link": [{ "rel": "stylesheet", "href": "https://fonts.googleapis.com/css?family=Raleway:400,300,600" }, { "rel": "icon", "type": "image/png", "href": "/static/images/favicon.png" }], "style": [], "script": [], "noscript": [], "charset": "utf-8", "viewport": "width=device-width, initial-scale=1" };
 const appLayoutTransition = { "name": "layout", "mode": "out-in" };
 const appPageTransition = { "name": "page", "mode": "out-in" };
 const appKeepalive = false;
@@ -2360,7 +2360,7 @@ const routes = [
     children: [],
     meta: meta$6,
     alias: [],
-    component: () => import('./_...slug_.9aa5689f.mjs').then((m) => m.default || m)
+    component: () => import('./_...slug_.4f68fc3c.mjs').then((m) => m.default || m)
   },
   {
     name: "albums_index",
@@ -2369,7 +2369,7 @@ const routes = [
     children: [],
     meta: meta$5,
     alias: [],
-    component: () => import('./albums_index.9432d32d.mjs').then((m) => m.default || m)
+    component: () => import('./albums_index.43e5d262.mjs').then((m) => m.default || m)
   },
   {
     name: "compositors-slug",
@@ -2378,7 +2378,7 @@ const routes = [
     children: [],
     meta: meta$4,
     alias: [],
-    component: () => import('./_...slug_.1edef597.mjs').then((m) => m.default || m)
+    component: () => import('./_...slug_.bf12825f.mjs').then((m) => m.default || m)
   },
   {
     name: "compositors_index",
@@ -2387,7 +2387,7 @@ const routes = [
     children: [],
     meta: meta$3,
     alias: [],
-    component: () => import('./compositors_index.a4d1a547.mjs').then((m) => m.default || m)
+    component: () => import('./compositors_index.8321652a.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -2396,7 +2396,7 @@ const routes = [
     children: [],
     meta: meta$2,
     alias: [],
-    component: () => import('./index.7cad3faa.mjs').then((m) => m.default || m)
+    component: () => import('./index.ae5e3a68.mjs').then((m) => m.default || m)
   },
   {
     name: "movies-slug",
@@ -2405,7 +2405,7 @@ const routes = [
     children: [],
     meta: meta$1,
     alias: [],
-    component: () => import('./_...slug_.f70fc6ed.mjs').then((m) => m.default || m)
+    component: () => import('./_...slug_.5319186b.mjs').then((m) => m.default || m)
   },
   {
     name: "movies_index",
@@ -2414,7 +2414,7 @@ const routes = [
     children: [],
     meta,
     alias: [],
-    component: () => import('./movies_index.403abc52.mjs').then((m) => m.default || m)
+    component: () => import('./movies_index.7a6f9649.mjs').then((m) => m.default || m)
   }
 ];
 const configRouterOptions = {};
@@ -2563,7 +2563,7 @@ const _sfc_main$1 = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const ErrorComponent = defineAsyncComponent(() => import('./error-component.b4c27060.mjs'));
+    const ErrorComponent = defineAsyncComponent(() => import('./error-component.d4334b2d.mjs'));
     const nuxtApp = useNuxtApp();
     provide("_route", useRoute());
     nuxtApp.hooks.callHookWith((hooks) => hooks.map((hook) => hook()), "vue:setup");
