@@ -28,7 +28,7 @@
 	   <h5>Books</h5>
 	   <ul>
 	     <li v-for="book of books" :key="book.slug">
-	       <NuxtLink :to="{ name: 'compositor-slug', params: { slug: book.slug } }">{{book.title}}</NuxtLink>
+	       <NuxtLink :to="{ name: 'compositors-slug', params: { slug: book.slug } }">{{book.title}}</NuxtLink>
 	     </li>
 	   </ul>
    </div>
