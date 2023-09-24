@@ -4,7 +4,7 @@ title: Aladdin Soundtrack
 authors: Alan Menken
 year: 1992
 fields: Pop, Musical
-image: albums/Aladdin2019soundtrack.jpg
+image: albums/Aladdin2019soundtrack.JPEG
 compositor: Alan Menken
 compositorId: alan_menken
 movie: Aladdin
