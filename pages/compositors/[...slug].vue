@@ -7,7 +7,7 @@
         <div class="content-section">
           <div class="image-and-title">
             <div class="image-column">
-              <img :src="'static/images/'+doc.image">
+              <img :src="'static/images/'+doc.image" async>
             </div>
             <div class="title-column">
               <div>
