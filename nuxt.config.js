@@ -16,6 +16,11 @@ export default defineNuxtConfig({
     },
     build: {
       publish: 'static',
+      assets: [
+        'static/css/main.css',
+        'static/js/main.js',
+        'static/images'
+      ]
     },
   },
 })
