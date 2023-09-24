@@ -38,5 +38,5 @@
 </template>
 
 <style scoped>
-@import url('../../public/css/details.css');
+@import url('../../static/css/details.css');
 </style>
