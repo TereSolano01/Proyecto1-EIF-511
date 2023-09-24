@@ -17,12 +17,13 @@
      </div>
      <div class="six columns">
        <h4>{{compositor.name}}</h4>
-	   Nationality: {{compositor.nationality}}; Born: {{compositor.birth_year}}</br>
+	   Nationality: {{compositor.nationality}}; Born: {{compositor.birth_year}}
 	   Fields: {{compositor.fields}}
 	   Biography
 	    <nuxt-content :document="compositor" />
 	 </div>
-	 <div class="three columns"></div>
+  </div>
+	 <div class="three columns">
 	   <h5>Books</h5>
 	   <ul>
 	     <li v-for="book of books" :key="book.slug">
