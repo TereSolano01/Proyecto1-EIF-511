@@ -24,10 +24,8 @@
   </div>
 </template>
 
-
 <style scoped>
 @import url('../static/css/index.css');
-
 
 .fila {
   display: flex;

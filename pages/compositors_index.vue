@@ -29,9 +29,6 @@
 </template>
 <style scoped>
 @import url('../static/css/indexCompositores.css');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@800&family=Playfair+Display:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');
 
 .fila {
   display: flex;
