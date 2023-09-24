@@ -1,19 +1,3 @@
-<script>
-async function fetchCompositor(params) {
-  const compositor = await $content('compositors', params.slug).fetch()
-
-  if (!compositor) {
-    return {
-      error: true
-    }
-  }
-
-  return {
-    compositor
-  }
-}
-</script>
-
 <template>
   <div>
     <HeaderView />
@@ -23,7 +7,7 @@ async function fetchCompositor(params) {
         <div class="content-section">
           <div class="image-and-title">
             <div class="image-column">
-              <img :src="'/images/'+doc.image">
+              <img :src="'static/images/'+doc.image">
             </div>
             <div class="title-column">
               <div>
