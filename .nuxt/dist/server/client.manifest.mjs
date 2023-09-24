@@ -1,4 +1,10 @@
 export default {
+  "static/images/movies/cruella-soundtrack.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "cruella-soundtrack.5d52f0fe.jpg",
+    "src": "static/images/movies/cruella-soundtrack.jpg"
+  },
   "static/images/movies/maxresdefault.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
@@ -16,12 +22,6 @@ export default {
     "mimeType": "image/png",
     "file": "Screenshot2023-09-20143159.157360ab.png",
     "src": "static/images/footer/Screenshot2023-09-20143159.png"
-  },
-  "static/images/movies/cruella-soundtrack.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "cruella-soundtrack.5d52f0fe.jpg",
-    "src": "static/images/movies/cruella-soundtrack.jpg"
   },
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
@@ -646,51 +646,6 @@ export default {
     "file": "ContentNavigation.3c4ebcd6.css",
     "src": "node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.css"
   },
-  "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css": {
-    "resourceType": "style",
-    "file": "ProseCode.e63e49c6.css",
-    "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css"
-  },
-  "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
-    "resourceType": "style",
-    "file": "error-500.df34e930.css",
-    "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
-  },
-  "pages/albums/[...slug].css": {
-    "resourceType": "style",
-    "file": "_...slug_.c0607489.css",
-    "src": "pages/albums/[...slug].css"
-  },
-  "pages/albums_index.css": {
-    "resourceType": "style",
-    "file": "albums_index.36179d36.css",
-    "src": "pages/albums_index.css"
-  },
-  "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
-    "resourceType": "style",
-    "file": "error-404.7ac8d696.css",
-    "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
-  },
-  "pages/compositors_index.css": {
-    "resourceType": "style",
-    "file": "compositors_index.2c39be59.css",
-    "src": "pages/compositors_index.css"
-  },
-  "pages/movies_index.css": {
-    "resourceType": "style",
-    "file": "movies_index.e10b799a.css",
-    "src": "pages/movies_index.css"
-  },
-  "node_modules/nuxt/dist/app/entry.css": {
-    "resourceType": "style",
-    "file": "entry.a98774ca.css",
-    "src": "node_modules/nuxt/dist/app/entry.css"
-  },
-  "pages/compositors/[...slug].css": {
-    "resourceType": "style",
-    "file": "_...slug_.1f278f14.css",
-    "src": "pages/compositors/[...slug].css"
-  },
   "pages/index.css": {
     "resourceType": "style",
     "file": "index.84721034.css",
@@ -700,5 +655,50 @@ export default {
     "resourceType": "style",
     "file": "_...slug_.f17ea944.css",
     "src": "pages/movies/[...slug].css"
+  },
+  "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css": {
+    "resourceType": "style",
+    "file": "ProseCode.e63e49c6.css",
+    "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css"
+  },
+  "pages/albums_index.css": {
+    "resourceType": "style",
+    "file": "albums_index.36179d36.css",
+    "src": "pages/albums_index.css"
+  },
+  "pages/compositors_index.css": {
+    "resourceType": "style",
+    "file": "compositors_index.2c39be59.css",
+    "src": "pages/compositors_index.css"
+  },
+  "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "resourceType": "style",
+    "file": "error-500.df34e930.css",
+    "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "node_modules/nuxt/dist/app/entry.css": {
+    "resourceType": "style",
+    "file": "entry.a98774ca.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
+  },
+  "pages/movies_index.css": {
+    "resourceType": "style",
+    "file": "movies_index.e10b799a.css",
+    "src": "pages/movies_index.css"
+  },
+  "pages/compositors/[...slug].css": {
+    "resourceType": "style",
+    "file": "_...slug_.1f278f14.css",
+    "src": "pages/compositors/[...slug].css"
+  },
+  "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "resourceType": "style",
+    "file": "error-404.7ac8d696.css",
+    "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  },
+  "pages/albums/[...slug].css": {
+    "resourceType": "style",
+    "file": "_...slug_.c0607489.css",
+    "src": "pages/albums/[...slug].css"
   }
 }
