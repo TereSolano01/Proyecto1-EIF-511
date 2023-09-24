@@ -1,10 +1,4 @@
 export default {
-  "static/images/movies/maxresdefault.jpg": {
-    "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "maxresdefault.d501ba7c.jpg",
-    "src": "static/images/movies/maxresdefault.jpg"
-  },
   "static/images/footer/Screenshot2023-09-20143159.png": {
     "resourceType": "image",
     "mimeType": "image/png",
@@ -17,6 +11,12 @@ export default {
     "file": "Black-Panther-Wakanda-Forever-Soundtrack.5f11e2de.jpg",
     "src": "static/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg"
   },
+  "static/images/movies/maxresdefault.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "maxresdefault.d501ba7c.jpg",
+    "src": "static/images/movies/maxresdefault.jpg"
+  },
   "static/images/movies/cruella-soundtrack.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
@@ -26,7 +26,7 @@ export default {
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "entry.44b25bd0.js",
+    "file": "entry.f6a242f5.js",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -45,7 +45,7 @@ export default {
   "virtual:nuxt:C:/Users/Tere Solano/projects/Proyecto1/.nuxt/error-component.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "error-component.045417b0.js",
+    "file": "error-component.1b2117e2.js",
     "src": "virtual:nuxt:C:/Users/Tere Solano/projects/Proyecto1/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -59,7 +59,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ContentNavigation.dbdf93d9.js",
+    "file": "ContentNavigation.63b28d35.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -115,7 +115,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ContentSlot.2e09c70a.js",
+    "file": "ContentSlot.2ed293fb.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -125,7 +125,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "DocumentDrivenEmpty.9a3a0325.js",
+    "file": "DocumentDrivenEmpty.1d3827b4.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -135,7 +135,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenNotFound.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "DocumentDrivenNotFound.314487e8.js",
+    "file": "DocumentDrivenNotFound.cd8e3b53.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenNotFound.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -145,7 +145,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Markdown.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "Markdown.c57f21c4.js",
+    "file": "Markdown.acea5d4b.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Markdown.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -156,7 +156,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseCode.c6e92260.js",
+    "file": "ProseCode.181ab51e.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -173,7 +173,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseA.f5e5f849.js",
+    "file": "ProseA.c6ef5047.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -183,7 +183,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseBlockquote.057fbdb4.js",
+    "file": "ProseBlockquote.c8cfa459.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -193,7 +193,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseCodeInline.68d06e8a.js",
+    "file": "ProseCodeInline.6cba0a03.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -203,7 +203,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseEm.51eff0aa.js",
+    "file": "ProseEm.ab0cb3fb.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -213,7 +213,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseH1.9face6eb.js",
+    "file": "ProseH1.8e3a6a0f.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -223,7 +223,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseH2.16288b4e.js",
+    "file": "ProseH2.69b73800.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -233,7 +233,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseH3.09fa2617.js",
+    "file": "ProseH3.4fd5962a.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -243,7 +243,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseH4.14762aee.js",
+    "file": "ProseH4.a199bee1.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -253,7 +253,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseH5.a6041e98.js",
+    "file": "ProseH5.5826e6e5.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -263,7 +263,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseH6.35fdef30.js",
+    "file": "ProseH6.b8a6bec2.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -273,7 +273,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseHr.bd50fe6d.js",
+    "file": "ProseHr.4ffd37e9.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -283,7 +283,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseImg.28d12ced.js",
+    "file": "ProseImg.c0a27a7a.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -293,7 +293,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseLi.2bf6e18a.js",
+    "file": "ProseLi.174eb123.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -303,7 +303,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseOl.525c55e9.js",
+    "file": "ProseOl.5a051611.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -313,7 +313,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseP.2d9b528a.js",
+    "file": "ProseP.19b82ffe.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -323,7 +323,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseStrong.731c8ce4.js",
+    "file": "ProseStrong.9a9453d3.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -333,7 +333,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseTable.b2a77f19.js",
+    "file": "ProseTable.138da3df.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -343,7 +343,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseTbody.3388a921.js",
+    "file": "ProseTbody.e8c8f9dd.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -353,7 +353,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseTd.64df6062.js",
+    "file": "ProseTd.dd0c71f3.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -363,7 +363,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseTh.8a3fd04f.js",
+    "file": "ProseTh.e71dac5a.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -373,7 +373,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseThead.0d493457.js",
+    "file": "ProseThead.60719ea3.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -383,7 +383,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseTr.cf371535.js",
+    "file": "ProseTr.aa4551a0.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -393,7 +393,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "ProseUl.dd48f6de.js",
+    "file": "ProseUl.f671b648.js",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -403,7 +403,7 @@ export default {
   "node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs": {
     "resourceType": "script",
     "module": true,
-    "file": "web-socket.b8439a0c.js",
+    "file": "web-socket.8a8531a7.js",
     "src": "node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -413,7 +413,7 @@ export default {
   "pages/albums/[...slug].vue": {
     "resourceType": "script",
     "module": true,
-    "file": "_...slug_.6dcff666.js",
+    "file": "_...slug_.9a2089aa.js",
     "src": "pages/albums/[...slug].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -432,7 +432,7 @@ export default {
   "components/HeaderView.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "HeaderView.0fe996e9.js",
+    "file": "HeaderView.295d028c.js",
     "src": "components/HeaderView.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -442,7 +442,7 @@ export default {
   "components/FooterView.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "FooterView.10192659.js",
+    "file": "FooterView.38174817.js",
     "src": "components/FooterView.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -460,7 +460,7 @@ export default {
   "pages/albums_index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "albums_index.d4690fb2.js",
+    "file": "albums_index.46d2be30.js",
     "src": "pages/albums_index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -479,7 +479,7 @@ export default {
   "pages/compositors/[...slug].vue": {
     "resourceType": "script",
     "module": true,
-    "file": "_...slug_.fc4847e5.js",
+    "file": "_...slug_.b448ce4d.js",
     "src": "pages/compositors/[...slug].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -498,7 +498,7 @@ export default {
   "pages/compositors_index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "compositors_index.4b4e4f4b.js",
+    "file": "compositors_index.844e7fdd.js",
     "src": "pages/compositors_index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -517,7 +517,7 @@ export default {
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.955d48c8.js",
+    "file": "index.ae3c6ac8.js",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -556,7 +556,7 @@ export default {
   "pages/movies/[...slug].vue": {
     "resourceType": "script",
     "module": true,
-    "file": "_...slug_.fb666c4b.js",
+    "file": "_...slug_.a40b0ce8.js",
     "src": "pages/movies/[...slug].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -575,7 +575,7 @@ export default {
   "pages/movies_index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "movies_index.d8fe5a94.js",
+    "file": "movies_index.c53a6b5d.js",
     "src": "pages/movies_index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -594,7 +594,7 @@ export default {
   "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-404.3e96ff44.js",
+    "file": "error-404.b82dc2ba.js",
     "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -611,7 +611,7 @@ export default {
   "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "error-500.78c40df3.js",
+    "file": "error-500.3d492b92.js",
     "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -628,7 +628,7 @@ export default {
   "node_modules/@nuxt/ui-templates/dist/templates/welcome.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "welcome.8a700a8f.js",
+    "file": "welcome.c59f772c.js",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/welcome.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -651,41 +651,6 @@ export default {
     "file": "ProseCode.e63e49c6.css",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css"
   },
-  "pages/albums/[...slug].css": {
-    "resourceType": "style",
-    "file": "_...slug_.119eb9a9.css",
-    "src": "pages/albums/[...slug].css"
-  },
-  "pages/index.css": {
-    "resourceType": "style",
-    "file": "index.6d5bb83c.css",
-    "src": "pages/index.css"
-  },
-  "pages/movies/[...slug].css": {
-    "resourceType": "style",
-    "file": "_...slug_.7640b5b2.css",
-    "src": "pages/movies/[...slug].css"
-  },
-  "pages/compositors/[...slug].css": {
-    "resourceType": "style",
-    "file": "_...slug_.715083a3.css",
-    "src": "pages/compositors/[...slug].css"
-  },
-  "pages/albums_index.css": {
-    "resourceType": "style",
-    "file": "albums_index.5f138405.css",
-    "src": "pages/albums_index.css"
-  },
-  "node_modules/nuxt/dist/app/entry.css": {
-    "resourceType": "style",
-    "file": "entry.a98774ca.css",
-    "src": "node_modules/nuxt/dist/app/entry.css"
-  },
-  "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
-    "resourceType": "style",
-    "file": "error-404.7ac8d696.css",
-    "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
-  },
   "pages/compositors_index.css": {
     "resourceType": "style",
     "file": "compositors_index.3ffa0a28.css",
@@ -696,9 +661,44 @@ export default {
     "file": "movies_index.d35a1653.css",
     "src": "pages/movies_index.css"
   },
+  "pages/index.css": {
+    "resourceType": "style",
+    "file": "index.6d5bb83c.css",
+    "src": "pages/index.css"
+  },
+  "pages/albums_index.css": {
+    "resourceType": "style",
+    "file": "albums_index.5f138405.css",
+    "src": "pages/albums_index.css"
+  },
+  "pages/albums/[...slug].css": {
+    "resourceType": "style",
+    "file": "_...slug_.119eb9a9.css",
+    "src": "pages/albums/[...slug].css"
+  },
+  "pages/movies/[...slug].css": {
+    "resourceType": "style",
+    "file": "_...slug_.7640b5b2.css",
+    "src": "pages/movies/[...slug].css"
+  },
   "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
     "resourceType": "style",
     "file": "error-500.df34e930.css",
     "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "node_modules/nuxt/dist/app/entry.css": {
+    "resourceType": "style",
+    "file": "entry.a98774ca.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
+  },
+  "pages/compositors/[...slug].css": {
+    "resourceType": "style",
+    "file": "_...slug_.715083a3.css",
+    "src": "pages/compositors/[...slug].css"
+  },
+  "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "resourceType": "style",
+    "file": "error-404.7ac8d696.css",
+    "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
   }
 }
