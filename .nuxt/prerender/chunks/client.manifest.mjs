@@ -1,9 +1,9 @@
 const client_manifest = {
-  "static/images/movies/maxresdefault.jpg": {
+  "static/images/footer/Screenshot2023-09-20143159.png": {
     "resourceType": "image",
-    "mimeType": "image/jpeg",
-    "file": "maxresdefault.d501ba7c.jpg",
-    "src": "static/images/movies/maxresdefault.jpg"
+    "mimeType": "image/png",
+    "file": "Screenshot2023-09-20143159.157360ab.png",
+    "src": "static/images/footer/Screenshot2023-09-20143159.png"
   },
   "static/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg": {
     "resourceType": "image",
@@ -11,17 +11,17 @@ const client_manifest = {
     "file": "Black-Panther-Wakanda-Forever-Soundtrack.5f11e2de.jpg",
     "src": "static/images/movies/Black-Panther-Wakanda-Forever-Soundtrack.jpg"
   },
+  "static/images/movies/maxresdefault.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "maxresdefault.d501ba7c.jpg",
+    "src": "static/images/movies/maxresdefault.jpg"
+  },
   "static/images/movies/cruella-soundtrack.jpg": {
     "resourceType": "image",
     "mimeType": "image/jpeg",
     "file": "cruella-soundtrack.5d52f0fe.jpg",
     "src": "static/images/movies/cruella-soundtrack.jpg"
-  },
-  "static/images/footer/Screenshot2023-09-20143159.png": {
-    "resourceType": "image",
-    "mimeType": "image/png",
-    "file": "Screenshot2023-09-20143159.157360ab.png",
-    "src": "static/images/footer/Screenshot2023-09-20143159.png"
   },
   "node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
@@ -646,60 +646,60 @@ const client_manifest = {
     "file": "ContentNavigation.3c4ebcd6.css",
     "src": "node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.css"
   },
-  "pages/compositors_index.css": {
+  "node_modules/nuxt/dist/app/entry.css": {
     "resourceType": "style",
-    "file": "compositors_index.24525ee8.css",
-    "src": "pages/compositors_index.css"
-  },
-  "pages/movies/[...slug].css": {
-    "resourceType": "style",
-    "file": "_...slug_.7640b5b2.css",
-    "src": "pages/movies/[...slug].css"
+    "file": "entry.a98774ca.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "pages/compositors/[...slug].css": {
     "resourceType": "style",
     "file": "_...slug_.56d83d01.css",
     "src": "pages/compositors/[...slug].css"
   },
-  "node_modules/nuxt/dist/app/entry.css": {
-    "resourceType": "style",
-    "file": "entry.a98774ca.css",
-    "src": "node_modules/nuxt/dist/app/entry.css"
-  },
-  "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css": {
-    "resourceType": "style",
-    "file": "ProseCode.e63e49c6.css",
-    "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css"
-  },
-  "pages/albums_index.css": {
-    "resourceType": "style",
-    "file": "albums_index.85a1d9f2.css",
-    "src": "pages/albums_index.css"
-  },
   "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
     "resourceType": "style",
     "file": "error-404.7ac8d696.css",
     "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
-  },
-  "pages/index.css": {
-    "resourceType": "style",
-    "file": "index.6d5bb83c.css",
-    "src": "pages/index.css"
-  },
-  "pages/albums/[...slug].css": {
-    "resourceType": "style",
-    "file": "_...slug_.119eb9a9.css",
-    "src": "pages/albums/[...slug].css"
   },
   "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
     "resourceType": "style",
     "file": "error-500.df34e930.css",
     "src": "node_modules/nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
   },
+  "pages/albums_index.css": {
+    "resourceType": "style",
+    "file": "albums_index.85a1d9f2.css",
+    "src": "pages/albums_index.css"
+  },
   "pages/movies_index.css": {
     "resourceType": "style",
     "file": "movies_index.2acda5ad.css",
     "src": "pages/movies_index.css"
+  },
+  "pages/movies/[...slug].css": {
+    "resourceType": "style",
+    "file": "_...slug_.7640b5b2.css",
+    "src": "pages/movies/[...slug].css"
+  },
+  "pages/index.css": {
+    "resourceType": "style",
+    "file": "index.6d5bb83c.css",
+    "src": "pages/index.css"
+  },
+  "pages/compositors_index.css": {
+    "resourceType": "style",
+    "file": "compositors_index.24525ee8.css",
+    "src": "pages/compositors_index.css"
+  },
+  "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css": {
+    "resourceType": "style",
+    "file": "ProseCode.e63e49c6.css",
+    "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css"
+  },
+  "pages/albums/[...slug].css": {
+    "resourceType": "style",
+    "file": "_...slug_.119eb9a9.css",
+    "src": "pages/albums/[...slug].css"
   }
 };
 
